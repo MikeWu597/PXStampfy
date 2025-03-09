@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3065d411-c4dd-4c7b-94a8-cba4f6508a1b" name="Changes" comment="BBox Annotation Tool">
+    <list default="true" id="3065d411-c4dd-4c7b-94a8-cba4f6508a1b" name="Changes" comment="Version 20250306">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +126,7 @@
       <workItem from="1741005092943" duration="1990000" />
       <workItem from="1741008729717" duration="17217000" />
       <workItem from="1741093104629" duration="8775000" />
+      <workItem from="1741451633588" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -166,18 +168,38 @@
       <option name="project" value="LOCAL" />
       <updated>1741095295343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version 20250306">
+      <option name="closed" value="true" />
+      <created>1741451859794</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741451859795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation" />
     <MESSAGE value="Set  .env" />
     <MESSAGE value="data collection procedures" />
     <MESSAGE value="BBox Annotation Tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="BBox Annotation Tool" />
+    <MESSAGE value="Version 20250306" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 20250306" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Dataset$run_mask_coords.coverage" NAME="run_mask_coords Coverage Results" MODIFIED="1741078397756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
