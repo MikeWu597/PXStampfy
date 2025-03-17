@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3065d411-c4dd-4c7b-94a8-cba4f6508a1b" name="Changes" comment="README">
-      <change afterPath="$PROJECT_DIR$/dataset/country_imager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/dataset_construct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/extract_bbox.py" afterDir="false" />
+    <list default="true" id="3065d411-c4dd-4c7b-94a8-cba4f6508a1b" name="Changes" comment="Dataset tools">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +53,7 @@
     &quot;Python.boxutil.executor&quot;: &quot;Run&quot;,
     &quot;Python.country_imager.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataset_construct.executor&quot;: &quot;Run&quot;,
+    &quot;Python.panorama.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_Qwen2.5VL_72B.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_bbox.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_complete.executor&quot;: &quot;Run&quot;,
@@ -139,6 +137,7 @@
       <workItem from="1741093104629" duration="8775000" />
       <workItem from="1741451633588" duration="7531000" />
       <workItem from="1741535443389" duration="2493000" />
+      <workItem from="1741780723581" duration="1823000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -196,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741515190652</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dataset tools">
+      <option name="closed" value="true" />
+      <created>1741780744523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741780744523</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +227,8 @@
     <MESSAGE value="BBox Annotation Tool" />
     <MESSAGE value="Version 20250306" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="Dataset tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dataset tools" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Dataset$run_mask_coords.coverage" NAME="run_mask_coords Coverage Results" MODIFIED="1741078397756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -228,6 +236,7 @@
     <SUITE FILE_PATH="coverage/Dataset$country_imager.coverage" NAME="country_imager Coverage Results" MODIFIED="1741532751162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/Dataset$boxutil.coverage" NAME="boxutil Coverage Results" MODIFIED="1741358928538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Dataset$dataset_construct.coverage" NAME="dataset_construct Coverage Results" MODIFIED="1741535735236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/Dataset$panorama.coverage" NAME="panorama Coverage Results" MODIFIED="1741782829019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/Dataset$run_complete_abs.coverage" NAME="run_complete_abs Coverage Results" MODIFIED="1741079548509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Dataset$run_Qwen2_5VL_72B.coverage" NAME="run_Qwen2.5VL_72B Coverage Results" MODIFIED="1741531441888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Dataset$run_complete.coverage" NAME="run_complete Coverage Results" MODIFIED="1741084831460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
