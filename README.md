@@ -15,6 +15,9 @@
 ## 备注
 dataset文件夹：使用其他大语言模型进行标注的Python代码
 
+## 鸣谢
+训练数据支持：Instagram lydia_swap mikewu597 hanas_postcards my_postcard_swaps
+
 ## 联系方式
 如有任何问题，请联系 i@hyp.ink。
 
